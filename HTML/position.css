@@ -1,0 +1,41 @@
+/* :root {
+  --font-size: 48px;
+  --primary-button-color: rgb(121, 17, 121);
+  --heading: 22px;
+  --heading2: 18px;
+} */
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: darkgray;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  font-size: var(--font-size);
+  list-style: none;
+}
+#logoimage {
+  height: 100px;
+  width: 100px;
+}
+.lionimg {
+  height: 250px;
+  width: 400px;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: 1s ease-in-out;
+}
+.lionimg:hover {
+  transform: scaleX(-1.2);
+}
